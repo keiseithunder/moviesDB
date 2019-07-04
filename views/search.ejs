@@ -1,0 +1,12 @@
+
+<% if(found){ %>
+    <h1>Found</h1>
+<%}else{ %>
+    <h1>Not found</h1>
+<%} %>
+<form action="/search" method="post">
+    <input type="text" name="avCode">
+    <button type="submit">search</button>
+</form>
+
+<a href="/">Home</a>
